@@ -101,7 +101,7 @@ export default function Projects() {
                   <p className="lead porject-cption text-center text-white px-2">
                     {" "}
                     A simple Portfolio website built with React, Bootstrap, and
-                    Css Animations. Hosted using Heroku.
+                    Css Animations. Hosted using github pages (gh-pages).
                   </p>
                   <a
                     className="project-link text-center"
