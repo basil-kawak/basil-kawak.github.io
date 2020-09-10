@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/basil-kawak/portfolio/static/css/main.27e302f9.chunk.css",
+    "main.js": "/basil-kawak/portfolio/static/js/main.31336dff.chunk.js",
+    "main.js.map": "/basil-kawak/portfolio/static/js/main.31336dff.chunk.js.map",
+    "runtime-main.js": "/basil-kawak/portfolio/static/js/runtime-main.c8e8f9a6.js",
+    "runtime-main.js.map": "/basil-kawak/portfolio/static/js/runtime-main.c8e8f9a6.js.map",
+    "static/css/2.18bc7be3.chunk.css": "/basil-kawak/portfolio/static/css/2.18bc7be3.chunk.css",
+    "static/js/2.ba8aeb31.chunk.js": "/basil-kawak/portfolio/static/js/2.ba8aeb31.chunk.js",
+    "static/js/2.ba8aeb31.chunk.js.map": "/basil-kawak/portfolio/static/js/2.ba8aeb31.chunk.js.map",
+    "index.html": "/basil-kawak/portfolio/index.html",
+    "precache-manifest.5f09dcbe431b7a15d1f5fe761041ef6d.js": "/basil-kawak/portfolio/precache-manifest.5f09dcbe431b7a15d1f5fe761041ef6d.js",
+    "service-worker.js": "/basil-kawak/portfolio/service-worker.js",
+    "static/css/2.18bc7be3.chunk.css.map": "/basil-kawak/portfolio/static/css/2.18bc7be3.chunk.css.map",
+    "static/css/main.27e302f9.chunk.css.map": "/basil-kawak/portfolio/static/css/main.27e302f9.chunk.css.map",
+    "static/js/2.ba8aeb31.chunk.js.LICENSE.txt": "/basil-kawak/portfolio/static/js/2.ba8aeb31.chunk.js.LICENSE.txt",
+    "static/media/Basil M. Al-Isa.pdf": "/basil-kawak/portfolio/static/media/Basil M. Al-Isa.79417957.pdf",
+    "static/media/Wsignature.png": "/basil-kawak/portfolio/static/media/Wsignature.5af31e04.png",
+    "static/media/project1.png": "/basil-kawak/portfolio/static/media/project1.8d61f0c2.png",
+    "static/media/project2.png": "/basil-kawak/portfolio/static/media/project2.f1e2ebf6.png",
+    "static/media/project3.png": "/basil-kawak/portfolio/static/media/project3.d72faf31.png",
+    "static/media/project4.png": "/basil-kawak/portfolio/static/media/project4.426d7a04.png",
+    "static/media/project5.png": "/basil-kawak/portfolio/static/media/project5.b9306fc3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8e8f9a6.js",
+    "static/css/2.18bc7be3.chunk.css",
+    "static/js/2.ba8aeb31.chunk.js",
+    "static/css/main.27e302f9.chunk.css",
+    "static/js/main.31336dff.chunk.js"
+  ]
+}
