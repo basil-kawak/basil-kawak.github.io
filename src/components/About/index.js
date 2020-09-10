@@ -67,7 +67,7 @@ export default function About() {
                   </li>
                   <li className="d-inline-block m-3">
                     <a
-                      href="https://www.linkedin.com/in/basil-m-al-isa/"
+                      href="https://www.linkedin.com/in/basil-m-al-isa-88323876/"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
