@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.27e302f9.chunk.css",
+    "main.js": "/static/js/main.7df8b83e.chunk.js",
+    "main.js.map": "/static/js/main.7df8b83e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ceaf4b5f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ceaf4b5f.js.map",
+    "static/css/2.18bc7be3.chunk.css": "/static/css/2.18bc7be3.chunk.css",
+    "static/js/2.92b8b43f.chunk.js": "/static/js/2.92b8b43f.chunk.js",
+    "static/js/2.92b8b43f.chunk.js.map": "/static/js/2.92b8b43f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.7f8ad02968a3e869243d1bdd4c69c257.js": "/precache-manifest.7f8ad02968a3e869243d1bdd4c69c257.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.18bc7be3.chunk.css.map": "/static/css/2.18bc7be3.chunk.css.map",
+    "static/css/main.27e302f9.chunk.css.map": "/static/css/main.27e302f9.chunk.css.map",
+    "static/js/2.92b8b43f.chunk.js.LICENSE.txt": "/static/js/2.92b8b43f.chunk.js.LICENSE.txt",
+    "static/media/Basil M. Al-Isa.pdf": "/static/media/Basil M. Al-Isa.79417957.pdf",
+    "static/media/Wsignature.png": "/static/media/Wsignature.5af31e04.png",
+    "static/media/project1.png": "/static/media/project1.8d61f0c2.png",
+    "static/media/project2.png": "/static/media/project2.f1e2ebf6.png",
+    "static/media/project3.png": "/static/media/project3.d72faf31.png",
+    "static/media/project4.png": "/static/media/project4.426d7a04.png",
+    "static/media/project5.png": "/static/media/project5.b9306fc3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ceaf4b5f.js",
+    "static/css/2.18bc7be3.chunk.css",
+    "static/js/2.92b8b43f.chunk.js",
+    "static/css/main.27e302f9.chunk.css",
+    "static/js/main.7df8b83e.chunk.js"
+  ]
+}
