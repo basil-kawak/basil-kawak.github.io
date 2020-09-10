@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://basil-kawak.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -11,6 +12,7 @@
     "emailjs-com": "^2.6.3",
     "express": "^4.17.1",
     "express-favicon": "^2.0.1",
+    "gh-pages": "^3.1.0",
     "path": "^0.12.7",
     "react": "^16.13.1",
     "react-animations": "^1.0.0",
@@ -23,6 +25,8 @@
     "styled-components": "^5.1.1"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
