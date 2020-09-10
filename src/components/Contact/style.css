@@ -1,0 +1,24 @@
+.costuom-form{
+  border: none;
+  border-bottom: 1px solid #285AEB;
+  border-radius: 0;
+}
+.btn-form{
+  border: 1px solid #285AEB;
+  color: #285AEB;
+  border-radius: 0;
+}
+.btn-form:hover{
+  border: 1px solid #285AEB;
+  background-color: #285AEB;
+}
+
+
+
+@media (min-width: 600px){
+
+  .form {
+    height: 100vh;
+
+  }
+}
