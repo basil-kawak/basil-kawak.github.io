@@ -1,5 +1,5 @@
 ## My Portfolio
-React based personal portfolio app craeted using create-react-app. 
+React-based personal portfolio app created using create-react-app.
 
 ## Features
 - Functional components
