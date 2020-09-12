@@ -17,4 +17,4 @@ React-based personal portfolio app created using create-react-app.
 - Resume
 - Social Media and Github Profiles
 
-To see it live, [click here](https://basil-kawak.github.io/)
+[Click here to see it live,](https://basil-kawak.github.io/)
