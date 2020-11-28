@@ -51,7 +51,7 @@ export default function Projects() {
                   </p>
                   <a
                     className="project-link text-center"
-                    href="https://basil-kawak.github.io/completedboards"
+                    href="https://basil-kawak.github.io/kanban-todo-app/"
                     target="_blank"
                     rel="noreferrer noopener"
                   >
