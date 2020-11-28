@@ -51,7 +51,7 @@ export default function Projects() {
                   </p>
                   <a
                     className="project-link text-center"
-                    href="https://confident-beaver-c96d62.netlify.app/"
+                    href="https://basil-kawak.github.io/completedboards"
                     target="_blank"
                     rel="noreferrer noopener"
                   >
@@ -78,7 +78,7 @@ export default function Projects() {
                   </p>
                   <a
                     className="project-link text-center"
-                    href="https://modest-allen-fdb469.netlify.app/"
+                    href="https://basil-kawak.github.io/movie-project/"
                     target="_blank"
                     rel="noreferrer noopener"
                   >
