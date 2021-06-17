@@ -105,7 +105,7 @@ export default function Projects() {
                   </p>
                   <a
                     className="project-link text-center"
-                    href="https://basil-portfolio.herokuapp.com/"
+                    href="https://basil-kawak.github.io/"
                     target="_blank"
                     rel="noreferrer noopener"
                   >
