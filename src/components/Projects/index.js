@@ -133,7 +133,7 @@ export default function Projects() {
                   </p>
                   <a
                     className="project-link text-center"
-                    href="https://istanbul-capstone-sdp.netlify.app/"
+                    href="https://suicide-detection-prevention.netlify.app/"
                     target="_blank"
                     rel="noreferrer noopener"
                   >
