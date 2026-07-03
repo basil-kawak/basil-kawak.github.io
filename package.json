@@ -1,50 +1,25 @@
 {
   "name": "portfolio",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "private": true,
   "homepage": "https://basil-kawak.github.io/",
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "bootstrap": "^4.5.0",
-    "emailjs": "^3.2.1",
-    "emailjs-com": "^2.6.3",
-    "express": "^4.17.1",
-    "express-favicon": "^2.0.1",
-    "gh-pages": "^3.1.0",
-    "path": "^0.12.7",
-    "react": "^16.13.1",
-    "react-animations": "^1.0.0",
-    "react-bootstrap": "^1.0.1",
-    "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
-    "react-typed": "^1.2.0",
-    "reactjs-typing-effect": "^1.0.8",
-    "styled-components": "^5.1.1"
-  },
   "scripts": {
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -b master -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "next dev",
+    "build": "next build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d out --dotfiles"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "dependencies": {
+    "next": "^15.3.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.8",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.6",
+    "gh-pages": "^6.3.0",
+    "tailwindcss": "^4.1.8",
+    "typescript": "^5.8.3"
   }
 }
