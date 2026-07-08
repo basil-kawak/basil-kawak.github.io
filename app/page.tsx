@@ -1,15 +1,21 @@
 const LINKS = {
-  github: 'https://github.com/basil-kawak',
-  linkedin: 'https://www.linkedin.com/in/basil-m-al-isa-815252199',
-  email: 'mailto:basilalisaa@gmail.com',
+  github: "https://github.com/basil-kawak",
+  linkedin: "https://www.linkedin.com/in/basil-m-al-isa-815252199",
+  email: "mailto:basilalisaa@gmail.com",
 };
 
 const SKILLS: [string, string][] = [
-  ['Frontend', 'React · Next.js · TypeScript · Redux · Material UI · Tailwind CSS'],
-  ['Backend', 'Node.js · Express.js · REST APIs · Ruby on Rails'],
-  ['Databases', 'MongoDB · PostgreSQL · Redis · Firebase'],
-  ['Testing & Tooling', 'Jest · Playwright · Git · Agile/Scrum'],
-  ['AI', 'OpenAI API · Vercel AI SDK · structured outputs · multi-provider failover'],
+  [
+    "Frontend",
+    "React · Next.js · TypeScript · Redux · Material UI · Tailwind CSS",
+  ],
+  ["Backend", "Node.js · Express.js · REST APIs · Ruby on Rails"],
+  ["Databases", "MongoDB · PostgreSQL · Redis · Firebase"],
+  ["Testing & Tooling", "Jest · Playwright · Git · Agile/Scrum"],
+  [
+    "AI",
+    "OpenAI API · Vercel AI SDK · structured outputs · multi-provider failover",
+  ],
 ];
 
 function SectionLabel({ children }: { children: React.ReactNode }) {
@@ -34,7 +40,9 @@ function ArchCard({
       <p className="text-xs font-semibold tracking-wide text-teal-700 uppercase dark:text-teal-400">
         {tech}
       </p>
-      <h4 className="mt-1 font-semibold text-zinc-900 dark:text-white">{title}</h4>
+      <h4 className="mt-1 font-semibold text-zinc-900 dark:text-white">
+        {title}
+      </h4>
       <ul className="mt-3 space-y-1.5 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
         {points.map((p) => (
           <li key={p}>{p}</li>
@@ -56,11 +64,11 @@ export default function Home() {
           Full-Stack Developer · Vancouver, BC
         </p>
         <p className="mt-6 max-w-2xl leading-relaxed text-zinc-600 dark:text-zinc-400">
-          I build and scale SaaS web applications with React, Next.js, Node.js, and
-          TypeScript. At Meaningful Work, I own the CRM and dashboard modules of a
-          platform that 100+ nonprofit associations use to manage members, sponsors,
-          and events — shipping features end-to-end, from performant UIs to API
-          design to AI features built on the OpenAI API.
+          I build and scale SaaS web applications with React, Next.js, Node.js,
+          and TypeScript. At Meaningful Work, I own the CRM and dashboard
+          modules of a platform that 100+ nonprofit associations use to manage
+          members, sponsors, and events — shipping features end-to-end, from
+          performant UIs to API design to AI features built on the OpenAI API.
         </p>
         <nav className="mt-8 flex flex-wrap gap-4">
           <a
@@ -94,26 +102,31 @@ export default function Home() {
               <h3 className="text-xl font-semibold text-zinc-900 dark:text-white">
                 Meaningful Work
               </h3>
-              <span className="text-sm text-zinc-500">2022 – Present · Vancouver, BC</span>
+              <span className="text-sm text-zinc-500">
+                2022 – Present · Vancouver, BC
+              </span>
             </div>
-            <p className="mt-1 text-sm font-medium text-zinc-500">Full-Stack Developer</p>
+            <p className="mt-1 text-sm font-medium text-zinc-500">
+              Full-Stack Developer
+            </p>
             <ul className="mt-4 list-disc space-y-2 pl-5 leading-relaxed text-zinc-600 dark:text-zinc-400">
               <li>
-                Own the CRM and dashboard modules of a multi-tenant SaaS platform used
-                by 100+ nonprofit associations — member journeys, deal pipelines, and
-                engagement analytics (Next.js, Node.js, TypeScript, MongoDB).
+                Own the CRM and dashboard modules of a multi-tenant SaaS
+                platform used by 100+ nonprofit associations — member journeys,
+                deal pipelines, and engagement analytics (Next.js, Node.js,
+                TypeScript, MongoDB).
               </li>
               <li>
-                Cut load times of the platform&apos;s most-used views by ~50% through
-                query optimization, caching, and code-splitting.
+                Cut load times of the platform&apos;s most-used views by ~50%
+                through query optimization, caching, and code-splitting.
               </li>
               <li>
                 Built AI features on the OpenAI API — auto-generated content and
                 member-data summaries in daily use by association teams.
               </li>
               <li>
-                Mentored developers and helped set the team&apos;s frontend standards
-                across a ~20-person product team.
+                Mentored developers and helped set the team&apos;s frontend
+                standards across a ~20-person product team.
               </li>
             </ul>
           </article>
@@ -123,14 +136,19 @@ export default function Home() {
               <h3 className="text-xl font-semibold text-zinc-900 dark:text-white">
                 Redemptive
               </h3>
-              <span className="text-sm text-zinc-500">2021 – 2022 · New York (Remote)</span>
+              <span className="text-sm text-zinc-500">
+                2021 – 2022 · New York (Remote)
+              </span>
             </div>
-            <p className="mt-1 text-sm font-medium text-zinc-500">Full-Stack Developer</p>
+            <p className="mt-1 text-sm font-medium text-zinc-500">
+              Full-Stack Developer
+            </p>
             <p className="mt-4 leading-relaxed text-zinc-600 dark:text-zinc-400">
-              Built a business-intelligence platform (Ruby on Rails) for El Camino
-              Travel — consolidating booking, CRM, and accounting data into one source
-              of truth with interactive revenue dashboards, producing the
-              investor-ready reporting used in a successful $1M fundraise.
+              Built a business-intelligence platform (Ruby on Rails) for a
+              travel company client — consolidating booking, CRM, and accounting
+              data into one source of truth with interactive revenue dashboards,
+              producing the investor-ready reporting used in a successful $1M
+              fundraise.
             </p>
           </article>
         </div>
@@ -161,43 +179,44 @@ export default function Home() {
             </div>
           </div>
           <p className="mt-4 leading-relaxed text-zinc-600 dark:text-zinc-400">
-            An LLM-powered job-fit engine: paste a resume and a job description and
-            get an evidence-verified fit verdict — every claim is backed by verbatim
-            quotes that are machine-checked against the source documents, so the
-            model can&apos;t fabricate evidence. Includes ATS-style requirement
-            coverage, a kanban application tracker with calibration stats,
-            multi-job comparison, and evidence-grounded resume rewrites.
+            An LLM-powered job-fit engine: paste a resume and a job description
+            and get an evidence-verified fit verdict — every claim is backed by
+            verbatim quotes that are machine-checked against the source
+            documents, so the model can&apos;t fabricate evidence. Includes
+            ATS-style requirement coverage, a kanban application tracker with
+            calibration stats, multi-job comparison, and evidence-grounded
+            resume rewrites.
           </p>
           <p className="mt-3 text-sm text-zinc-500">
-            Next.js · TypeScript · PostgreSQL · Drizzle · Stripe Billing · Vercel AI
-            SDK · 61 tests · CI · Live in production
+            Next.js · TypeScript · PostgreSQL · Drizzle · Stripe Billing ·
+            Vercel AI SDK · 61 tests · CI · Live in production
           </p>
           <div className="mt-6 grid gap-4 sm:grid-cols-3">
             <ArchCard
               tech="AI engine"
               title="Verified analysis"
               points={[
-                'Structured outputs (Zod)',
-                'Programmatic evidence checks',
-                '4-provider LLM failover',
+                "Structured outputs (Zod)",
+                "Programmatic evidence checks",
+                "4-provider LLM failover",
               ]}
             />
             <ArchCard
               tech="Product"
               title="Job-fit workflow"
               points={[
-                '0–100 fit score & ATS lens',
-                'Application tracker & stats',
-                'Multi-job compare',
+                "0–100 fit score & ATS lens",
+                "Application tracker & stats",
+                "Multi-job compare",
               ]}
             />
             <ArchCard
               tech="Platform"
               title="Full-stack SaaS"
               points={[
-                'Auth.js Google sign-in',
-                'Stripe subscriptions & portal',
-                'Postgres/Drizzle · CI · tests',
+                "Auth.js Google sign-in",
+                "Stripe subscriptions & portal",
+                "Postgres/Drizzle · CI · tests",
               ]}
             />
           </div>
@@ -213,11 +232,11 @@ export default function Home() {
             </span>
           </div>
           <p className="mt-4 leading-relaxed text-zinc-600 dark:text-zinc-400">
-            A solo-built B2B ordering system in daily use by a wholesale business and
-            its customers. Shop owners browse catalogs and place orders from a React
-            Native mobile app instead of traveling to the warehouse; a companion admin
-            web app handles order management, accounting, shop registrations, and
-            automated notifications.
+            A solo-built B2B ordering system in daily use by a wholesale
+            business and its customers. Shop owners browse catalogs and place
+            orders from a React Native mobile app instead of traveling to the
+            warehouse; a companion admin web app handles order management,
+            accounting, shop registrations, and automated notifications.
           </p>
           <p className="mt-3 text-sm text-zinc-500">
             React Native · Next.js · Node.js · Designed, built, deployed, and
@@ -228,27 +247,27 @@ export default function Home() {
               tech="React Native"
               title="Mobile app"
               points={[
-                'Catalog browsing & search',
-                'In-store order placement',
-                'Order history & status',
+                "Catalog browsing & search",
+                "In-store order placement",
+                "Order history & status",
               ]}
             />
             <ArchCard
               tech="Node.js"
               title="API & services"
               points={[
-                'Orders, inventory, accounts',
-                'Automated notifications',
-                'Auth & shop registration',
+                "Orders, inventory, accounts",
+                "Automated notifications",
+                "Auth & shop registration",
               ]}
             />
             <ArchCard
               tech="Next.js"
               title="Admin dashboard"
               points={[
-                'Order management',
-                'Accounting & reporting',
-                'Customer administration',
+                "Order management",
+                "Accounting & reporting",
+                "Customer administration",
               ]}
             />
           </div>
@@ -275,9 +294,9 @@ export default function Home() {
             </div>
           </div>
           <p className="mt-4 leading-relaxed text-zinc-600 dark:text-zinc-400">
-            A platform for suicide prevention and mental-health promotion, built with
-            a team as a Re:Coded capstone. React UI with reusable components, Jest
-            tests, and WordPress API for content management.
+            A platform for suicide prevention and mental-health promotion, built
+            with a team as a Re:Coded capstone. React UI with reusable
+            components, Jest tests, and WordPress API for content management.
           </p>
         </article>
       </section>
@@ -300,7 +319,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-zinc-200 pt-10 dark:border-zinc-800">
         <p className="leading-relaxed text-zinc-600 dark:text-zinc-400">
-          Open to remote full-stack roles.{' '}
+          Open to remote full-stack roles.{" "}
           <a
             href={LINKS.email}
             className="font-medium text-teal-700 hover:underline dark:text-teal-400"
