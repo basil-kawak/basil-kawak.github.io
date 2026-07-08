@@ -9,7 +9,7 @@ const SKILLS: [string, string][] = [
   ['Backend', 'Node.js · Express.js · REST APIs · Ruby on Rails'],
   ['Databases', 'MongoDB · PostgreSQL · Redis · Firebase'],
   ['Testing & Tooling', 'Jest · Playwright · Git · Agile/Scrum'],
-  ['AI', 'OpenAI API — content generation, summarization'],
+  ['AI', 'OpenAI API · Vercel AI SDK · structured outputs · multi-provider failover'],
 ];
 
 function SectionLabel({ children }: { children: React.ReactNode }) {
@@ -141,6 +141,69 @@ export default function Home() {
         <SectionLabel>Projects</SectionLabel>
 
         <article className="rounded-2xl border border-zinc-200 p-6 sm:p-8 dark:border-zinc-800">
+          <div className="flex flex-wrap items-baseline justify-between gap-x-4">
+            <h3 className="text-xl font-semibold text-zinc-900 dark:text-white">
+              HireSignal
+            </h3>
+            <div className="flex items-center gap-4">
+              <a
+                href="https://hiresignal-peach.vercel.app"
+                className="text-sm font-medium text-teal-700 hover:underline dark:text-teal-400"
+              >
+                Live app
+              </a>
+              <a
+                href="https://github.com/basil-kawak/hiresignal"
+                className="text-sm font-medium text-teal-700 hover:underline dark:text-teal-400"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
+          <p className="mt-4 leading-relaxed text-zinc-600 dark:text-zinc-400">
+            An LLM-powered job-fit engine: paste a resume and a job description and
+            get an evidence-verified fit verdict — every claim is backed by verbatim
+            quotes that are machine-checked against the source documents, so the
+            model can&apos;t fabricate evidence. Includes ATS-style requirement
+            coverage, a kanban application tracker with calibration stats,
+            multi-job comparison, and evidence-grounded resume rewrites.
+          </p>
+          <p className="mt-3 text-sm text-zinc-500">
+            Next.js · TypeScript · PostgreSQL · Drizzle · Stripe Billing · Vercel AI
+            SDK · 61 tests · CI · Live in production
+          </p>
+          <div className="mt-6 grid gap-4 sm:grid-cols-3">
+            <ArchCard
+              tech="AI engine"
+              title="Verified analysis"
+              points={[
+                'Structured outputs (Zod)',
+                'Programmatic evidence checks',
+                '4-provider LLM failover',
+              ]}
+            />
+            <ArchCard
+              tech="Product"
+              title="Job-fit workflow"
+              points={[
+                '0–100 fit score & ATS lens',
+                'Application tracker & stats',
+                'Multi-job compare',
+              ]}
+            />
+            <ArchCard
+              tech="Platform"
+              title="Full-stack SaaS"
+              points={[
+                'Auth.js Google sign-in',
+                'Stripe subscriptions & portal',
+                'Postgres/Drizzle · CI · tests',
+              ]}
+            />
+          </div>
+        </article>
+
+        <article className="mt-6 rounded-2xl border border-zinc-200 p-6 sm:p-8 dark:border-zinc-800">
           <div className="flex flex-wrap items-baseline justify-between gap-x-4">
             <h3 className="text-xl font-semibold text-zinc-900 dark:text-white">
               Wholesale Ordering Platform
